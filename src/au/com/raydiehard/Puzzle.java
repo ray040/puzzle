@@ -15,8 +15,7 @@ public class Puzzle {
 	}
 
 	private BigInteger getSum(BigInteger count1, BigInteger count2, BigInteger c) {
-		System.out.flush();
-		System.out.println("Count 1: " + count1 + " ===== Count 2: " + count2);
+
 		if (count2.compareTo(BigInteger.ZERO) < 0) {
 			return BigInteger.ZERO;
 		} else if (count2.compareTo(BigInteger.ZERO) == 0) {

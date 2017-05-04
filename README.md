@@ -13,5 +13,5 @@ FAQ
 A: It's using recursive solution, hence not a good solution for large numbers.
   
 2. What if you needed to calculate n=10,000,000 and C=200 ?
-A: If it goes beyond (2 ^ 32) ^ Integer.MAX_VALUE, it wouldn't give any result.
+A: If it goes beyond (2 ^ 32) ^ Integer.MAX_VALUE, it wouldn't give any result. Possibility of having Java Heap Space error also.
 
